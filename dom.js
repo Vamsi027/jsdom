@@ -26,3 +26,12 @@ for(var i=0;i<items.length;i++)
 {
     items[i].style.fontWeight='bold'
 }
+
+var diffItem=document.getElementsByClassName('not-in-list')
+console.log(diffItem)
+diffItem[0].textContent='Goodbye'
+diffItem[0].style.backgroundColor='grey'
+
+var diffItem1=document.getElementsByTagName('li')
+diffItem1[4].textContent='Goodbye'
+diffItem1[4].style.backgroundColor='yellow'
