@@ -25,15 +25,16 @@
      <div id="main" class="card card-body">
       <h2 class="title">Add Items</h2>
       <form id="addForm" class="form-inline mb-3">
-        <input type="text" class="form-control mr-2" id="item">
+        <input type="text" class="form-control mr-2" id="item" placeholder="item" required>
+        <input type="text" class="form-control mr-2" id="desc" placeholder="decription" required>
         <input type="submit" class="btn btn-dark" value="Submit">
       </form>
       <h2 class="title">Items</h2>
       <ul id="items" class="list-group">
-        <li class="list-group-item">Item 1 <button class="btn btn-success btn-sm float-right edit">Edit</button><button class="btn btn-danger btn-sm float-right delete">X</button></li>
-        <li class="list-group-item">Item 2 <button class="btn btn-success btn-sm float-right edit">Edit</button><button class="btn btn-danger btn-sm float-right delete">X</button></li>
-        <li class="list-group-item">Item 3 <button class="btn btn-success btn-sm float-right edit">Edit</button><button class="btn btn-danger btn-sm float-right delete">X</button></li>
-        <li class="list-group-item">Item 4 <button class="btn btn-success btn-sm float-right edit">Edit</button><button class="btn btn-danger btn-sm float-right delete">X</button></li>
+        <li class="list-group-item">Item 1 car<button class="btn btn-success btn-sm float-right edit" contenteditable="false">Edit</button><button class="btn btn-danger btn-sm float-right delete" contenteditable="false">X</button></li>
+        <li class="list-group-item">Item 2 fridge<button class="btn btn-success btn-sm float-right edit" contenteditable="false">Edit</button><button class="btn btn-danger btn-sm float-right delete" contenteditable="false">X</button></li>
+        <li class="list-group-item">Item 3 smartphone<button class="btn btn-success btn-sm float-right edit" contenteditable="false">Edit</button><button class="btn btn-danger btn-sm float-right delete" contenteditable="false">X</button></li>
+        <li class="list-group-item">Item 4 plane<button class="btn btn-success btn-sm float-right edit" contenteditable="false">Edit</button><button class="btn btn-danger btn-sm float-right delete" contenteditable="false">X</button></li>
       </ul>
      </div>
     </div>
